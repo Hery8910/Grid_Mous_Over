@@ -1,7 +1,8 @@
 .top {
-  background-color: aqua;
-  background-image: url(/Image/mystery-hypnotic-vibrant-colors-in-hq-hd-8k-space-wallpaper-ai-generated-photo.jpeg);
+  background-color: hsla(278, 100%, 12%, 0.637);
+  background-image: url(https://wallup.net/wp-content/uploads/2015/12/65658-abstract-colorful.jpg)
 }
+
 
 .top-left {
   display: grid;
@@ -14,21 +15,23 @@
 }
 
 buttom {
-  max-width: 180px;
-  max-height: 80px;
+  min-width: 180px;
+  min-height: 80px;
   min-width: 90px;
   min-height: 40px;
-  background-color: rgba(48, 154, 241, 0.815);
+  background-color: rgba(0, 47, 87, 0.901);
   position: relative;
   box-sizing: inherit;
   opacity: 1;
-  transition: opacity 1s ease 0s;
-  transition: 1s ease 0s;
+  transition: all .1s ease;
+  transition-duration: 4s;
+  
 }
 
 buttom:hover {
   opacity: 0.1;
   scale: 80%;
+  transition: all .1s ease;
 }
 
 .top {
@@ -39,6 +42,7 @@ buttom:hover {
   height: 100%;
   position: absolute;
   box-sizing: content-box;
+  margin: 0
 }
 
 .top-right {
@@ -49,6 +53,7 @@ buttom:hover {
   grid-row: 1 / 2;
   position: absolute;
   position: relative;
+  margin: 0;
 }
 
 .buttom-right {
